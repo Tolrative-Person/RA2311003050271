@@ -1,0 +1,95 @@
+.top-panel {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-panel__appbar {
+  margin-bottom: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #f8fbff 0%, #ffffff 100%);
+}
+
+.top-panel__toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.top-panel__eyebrow {
+  color: #5f6b7a;
+  letter-spacing: 0.08em;
+}
+
+.top-panel__card {
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+}
+
+.top-panel__stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.top-panel__stat-card {
+  padding: 18px;
+  border-radius: 14px;
+  background: #fcfdff;
+}
+
+.top-panel__stat-label {
+  color: #64748b;
+  letter-spacing: 0.08em;
+}
+
+.top-panel__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.top-panel__subtitle {
+  color: #556070;
+  margin-top: 0;
+}
+
+.top-panel__meta-row {
+  justify-content: space-between;
+}
+
+.top-panel__meta {
+  color: #5f6b7a;
+}
+
+.top-panel__table-wrap {
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.top-panel__table-wrap .MuiTableCell-head {
+  background: #f8fafc;
+  font-weight: 700;
+}
+
+.top-panel__table-wrap .MuiTableCell-body {
+  color: #1f2937;
+}
+
+.top-panel__pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.top-panel__empty {
+  padding: 20px;
+  border-radius: 14px;
+  background: #fcfdff;
+}
